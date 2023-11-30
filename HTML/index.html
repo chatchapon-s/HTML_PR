@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgister</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="resgister">
+            <h1>Resgister Form</h1>
+            <hr>
+            <p>First Name</p>
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+            <p>Last Name</p>
+            <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+            <p>Age</p>
+            <input type="number" name="age" id="age" placeholder="Age" min="0" max="100">
+            
+            <div>
+                <p>Gender</p>
+                <div>
+                    <p><input type="radio" name="gender" id="male" placeholder="male">Male</p>
+                    <p><input type="radio" name="gender" id="female" placeholder="female">Female</p>
+                    <p><input type="radio" name="gender" id="unknow" placeholder="unknow">ไม่ระบุ</p>
+                </div>
+            </div>
+
+            <div>
+                <p>Interesting</p>
+                <div>
+                    <p><input type="checkbox" name="interest" id="" placeholder="male">หนังสือ</p>
+                    <p><input type="checkbox" name="interest" id="" placeholder="female">Video Game</p>
+                    <p><input type="checkbox" name="interest" id="" placeholder="unknow">การเมือง</p>
+                </div>
+            </div>
+
+            <div>
+                <p>คำอธิบายตัวตนเพิ่มเติม</p>
+                <div>
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="อธิบายเกี่ยวกับตัวเอง"></textarea>
+                </div>
+            </div>
+            <button type="submit" name="submit" id="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
