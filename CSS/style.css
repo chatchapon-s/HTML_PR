@@ -1,0 +1,69 @@
+@font-face{
+    font-family: 'Kanit';
+    src: url('../HTML/Kanit/Kanit-Regular.ttf');
+}
+
+body{
+    background-image: url("https://getwallpapers.com/wallpaper/full/f/2/5/537218.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Kanit';
+}
+
+.box{
+    display: block;
+    overflow: hidden;
+}
+
+.resgister{
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.resgister h1{
+    text-align: center;
+}
+
+.resgister p{
+    margin-left: 20%;
+}
+
+.resgister input{
+    margin-left: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.resgister textarea{
+    margin-left: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.resgister button{
+    margin-left: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.resgister button:hover{
+    background-color: #5ade60;
+}
+
+.resgister button:active{
+    background-color: #255527;
+}
